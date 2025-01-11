@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de PDF - Converta seus arquivos facilmente</title>
+    <meta name="description" content="Use nosso conversor de PDF online para converter arquivos de imagem PNG e JPEG para PDF de forma rápida e fácil.">
+    <meta name="keywords" content="conversor de PDF, converter PNG para PDF, converter JPEG para PDF, PDF online">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./images/favicon.jpg" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.2.0/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <div id="main-container">
+        <p>Selecione seu arquivo</p>
+        <input type="file" id="fileInput" hidden>
+        <label id="fileLabel">Nenhum arquivo selecionado</label>
+        <button id="customButton">Escolher Arquivo</button>
+        <button id="convertButton">Converter para PDF</button>
+        <div id="errorMessage" class="hidden">Arquivo inválido. Por favor, selecione uma imagem PNG ou JPEG.</div>
+    </div>
+    <script src="./script/script.js"></script>
+</body>
+</html>

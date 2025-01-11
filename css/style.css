@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+#main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    width: 40vh;
+    height: auto;
+    padding: 20px;
+    border-radius: .35rem;
+    background-color: white;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+#fileLabel {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: .35rem;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+#customButton {
+    background-color: #007BFF;
+    color: white;
+}
+
+#customButton:hover {
+    background-color: #0056b3;
+}
+
+#convertButton {
+    background-color: #28a745;
+    color: white;
+}
+
+#convertButton:hover {
+    background-color: #218838;
+}
+
+#errorMessage {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+
+.hidden {
+    display: none;
+}
